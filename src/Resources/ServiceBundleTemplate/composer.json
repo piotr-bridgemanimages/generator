@@ -1,0 +1,21 @@
+{
+    "name": "bridgeman-share/gem-v2-tools-service-bundle",
+    "type": "symfony-bundle",
+    "description": "__BundleName__ Bundle",
+    "autoload": {
+        "psr-4": {
+            "__VendorName__\\__BundleName__Bundle\\": ""
+        }
+    },
+    "repositories": [
+        {"type" : "git", "url" : "https://github.com/bridgemanart/gqm-client-transmitter.git"}
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "symfony/symfony": "^2.8",
+        "sensio/generator-bundle": "^3.0",
+        "phpunit/phpunit": "4.5.*",
+        "bridgeman-share/gqm-client-transmitter": "~1.3"
+    }
+}

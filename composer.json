@@ -1,0 +1,22 @@
+{
+    "name": "bridgeman-share/generator",
+    "description": "Genarets stuff",
+    "type": "cli command",
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.1",
+        "symfony/filesystem": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Majewski",
+            "email": "piotr.majewski@bridgemanimages.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require_once '../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+$console = new Application('Generator', '@package_version@');
+$console->add(new \Command\ServiceGeneratorCommand());
+$console->run();
